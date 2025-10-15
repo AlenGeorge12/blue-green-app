@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-const version = "Blue"; // This is the initial version
+const version = "Green"; // This is the initial version
 
 app.get('/', (req, res) => {
   res.send(`<html><body style="background-color:${version.toLowerCase()}; color:white; font-family:sans-serif; text-align:center;"><h1>Hello from the ${version} Version!</h1></body></html>`);
